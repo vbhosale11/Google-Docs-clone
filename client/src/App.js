@@ -11,14 +11,14 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<RedirectToNewDocument />} />
-        <Route path="/documents/:id" element={<TextEditor />} />
+        <Route path="/" element={<RedirectToNewDocument />} />  {/*this is the route to the new document*/}
+        <Route path="/documents/:id" element={<TextEditor />} /> {/*this is the route to the text editor component*/}
       </Routes>
     </Router>
   );
 }
 
-function RedirectToNewDocument() {
-  return <Navigate to={`/documents/${uuidV4()}`} replace />;
+function RedirectToNewDocument() {  //this function redirects to a new document
+  return <Navigate to={`/documents/${uuidV4()}`} replace />; //replace the current url with the new url
 }
 export default App;

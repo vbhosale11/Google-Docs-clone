@@ -1,0 +1,9 @@
+# Root directory
+
+# Ignore client build output
+client/build/
+
+# Ignore server dependencies
+server/node_modules/
+
+client./gitignore
