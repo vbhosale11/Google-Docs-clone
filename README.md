@@ -1,4 +1,4 @@
-GOOGLE DOCS CLONE <br>
+# GOOGLE DOCS CLONE <br>
 A google docs clone made with Quill and Socket.io connected to MongoDB Atlas for backend<br>
 <br>
 Quill: Rich text Editor<br>
