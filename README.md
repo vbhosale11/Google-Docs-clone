@@ -5,7 +5,7 @@ Quill: Rich text Editor
 Socket.io: For real time collaboration(sharing)
 MongoDB: Database
 React.js: Frontend
-css: Styling and responsiveness
+CSS: Styling and responsiveness
 
 To run
 connect your own mongodb atlas then npm run devStart for server and npm start for client
