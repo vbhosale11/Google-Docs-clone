@@ -28,7 +28,7 @@ export default function TextEditor() { //this is the text editor component
     const [quill, setQuill]= useState();  //initializing the quill editor
 
     useEffect(() => {
-        const s = io("http://localhost:3001")  //connecting to the server
+        const s = io("https://google-doc-server.onrender.com")  //connecting to the server
         setSocket(s);  //setting the socket
 
         return () => {

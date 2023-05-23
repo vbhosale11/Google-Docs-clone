@@ -239,13 +239,9 @@ body {
   /* Set the width of the scrollbar */
   scrollbar-color: #555555 #ffffff;
   z-index: 0;
+  height: 83vh;
 }
 
-/* Styling the scrollbar track */
-.ql-toolbar.ql-snow+.ql-container.ql-snow::-webkit-scrollbar-track {
-  background-color: #ffffff;
-  /* Set the color of the scrollbar track */
-}
 
 .meet-icon-container:hover,
 .chat-icon-container:hover {
@@ -254,7 +250,7 @@ body {
 .button-icon{
   display: none;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {    /* For mobile phones: */
   .container,
   .ql-editor {
     width: 84vw;
@@ -319,7 +315,7 @@ body {
     margin: 6px 18px;
   }
 }
-@media (min-width: 601px) and (max-width: 850px) {
+@media (min-width: 601px) and (max-width: 850px) {  /* For tablets: */
   .side-bar{
     gap: 1.5rem;
   }
