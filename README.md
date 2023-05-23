@@ -7,8 +7,8 @@ MongoDB: Database
 React.js: Frontend
 CSS: Styling and responsiveness
 
-To run
-connect your own mongodb atlas then npm run devStart for server and npm start for client
+To run-
+Connect your own mongodb atlas then npm run devStart for server and npm start for client
 
 
 
