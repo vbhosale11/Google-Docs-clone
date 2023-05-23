@@ -2,7 +2,7 @@ GOOGLE DOCS CLONE
 A google docs clone made with Quill and Socket.io connected to MongoDB Atlas for backend
 
 Quill: Rich text Editor
-Socket.io: for real time collaboration(sharing)
+Socket.io: For real time collaboration(sharing)
 MongoDB: Database
 React.js: Frontend
 css: Styling and responsiveness
